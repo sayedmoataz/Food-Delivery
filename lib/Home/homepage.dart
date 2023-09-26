@@ -12,7 +12,13 @@ class MyHomePage extends StatelessWidget {
       listener: (context, state) {},
       builder: (context, state) {
         // var cubit = MyHomeCubit.get(context);
-        return Container();
+        return Scaffold(
+          appBar: AppBar(
+            centerTitle: true,
+            backgroundColor: Colors.green.shade400,
+            title: const Text("F o o d  D e l i v e r y"),
+          ),
+        );
       },
     );
   }
