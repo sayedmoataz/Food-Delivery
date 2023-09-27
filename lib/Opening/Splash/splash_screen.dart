@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:splash_screen_view/SplashScreenView.dart';
 
-import '../../Home/homepage.dart';
+import '../Auth/login_screen.dart';
 
 
 
@@ -25,7 +25,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return SplashScreenView(
-      navigateRoute: MyHomePage(),
+      navigateRoute: MyLoginScreen(), 
       text: 'Food Delivery',
       backgroundColor: Colors.green.shade400,
       duration: 5000,

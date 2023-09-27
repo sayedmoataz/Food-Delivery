@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:food_delivery/Shared/offline_widget.dart';
 import 'package:food_delivery/cubit/Auth%20Cubit/auth_cubit.dart';
 import 'package:food_delivery/cubit/Home%20Cubit/home_cubit.dart';
 
 import 'Opening/Splash/splash_screen.dart';
+import 'Shared/Widgets/offline_widget.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
